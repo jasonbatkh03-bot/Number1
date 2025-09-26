@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advocate for better mental health servies</title>
+</head>
+<body style="font-family: Arial; background-color: #33622f;">
+
+  <!-- Main heading for the page -->
+  <h1 style="text-align:center;">better mental health servies</h1>
+
+  <!-- Introduction paragraph about why bees are important -->
+  <p style="text-align:center;">I want to focus on mental health because it is a person’s emotional, psychological, and social well-being, which affects how they think, feel, and behave in daily life.</p>
+
+  <!-- Section explaining why bees matter -->
+  <h2>Why mental health Matter</h2>
+  <ul>
+    <li>It matters because it directly influences my ability to learn make decisions, and maintain overall well-being.</li>
+    <li>Good mental health improves focus and productivity in school or work.</li>
+    <li>Positive mental health in young people leads to brighter futures.</li>
+  </ul>
+
+  <!-- Section listing actions people can take to help bees -->
+  <h2>What You Can Do</h2>
+  <ol>
+    <li>We can limiy stress on kids.</li>
+    <li>Practice self care.</li>
+    <li>Create a safe space for the kids.</li>
+  </ol>
+
+  <hr>
+
+  <!-- Petition form where visitors can sign -->
+  <h2>Sign the Petition</h2>
+  <form>
+    <!-- Input for name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Input for email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Textarea for adding a comment -->
+    <label for="comment">Why do you support mental health?</label><br>
+    <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br><br>
+
+    <!-- Submit button to send form -->
+    <input type="submit" value="Sign Petition">
+  </form>
+
+  <!-- Volunteer form section -->
+  <h2>Volunteer Sign Up</h2>
+  <form>
+    <!-- Input for volunteer's name -->
+    <label for="volName">Name:</label><br>
+    <input type="text" id="volName" name="volName"><br><br>
+
+    <!-- Input for volunteer's email -->
+    <label for="volEmail">Email:</label><br>
+    <input type="email" id="volEmail" name="volEmail"><br><br>
+
+    <!-- Dropdown for volunteer availability -->
+    <label for="availability">Availability to speaks to students:</label><br>
+    <select id="availability" name="availability">
+      <option value="weekend">Weekends</option>
+      <option value="evenings">Evenings</option>
+      <option value="flexible">Flexible</option>
+    </select><br><br>
+
+    <!-- Submit button for volunteer sign up -->
+    <input type="submit" value="Sign Up">
+  </form>
+
+  <hr>
+
+  
+
+</body>
+</html>
+

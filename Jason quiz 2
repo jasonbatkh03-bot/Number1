@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Example</title>
+</head>
+<body>
+<h1>whats your favortite food</h1>
+  <form action="" method="get">
+    <!-- Radio buttons -->
+    <p>Pick your favorite food:</p>
+    <label>
+      <input type="radio" name="favfood" value="Burger"> Burger
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="favfood" value="pizza"> Pizza
+    </label>
+    <br><br>
+
+    <!-- Text input with label and placeholder -->
+    <label for="Food">Or do you like pasta?</label>
+    <input type="text" id="Food" name="Food" placeholder="type here">
+    <br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
