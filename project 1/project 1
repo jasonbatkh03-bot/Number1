@@ -3,7 +3,7 @@
 <head>
   <title>Advocate for better mental health servies</title>
 </head>
-<body style="font-family: Arial; background-color: #33622f;">
+<body style="font-family: Arial; background-color: #257d1d;">
 
   <!-- Main heading for the page -->
   <h1 style="text-align:center;">better mental health servies</h1>
@@ -31,7 +31,7 @@
 
   <!-- Petition form where visitors can sign -->
   <h2>Sign the Petition</h2>
-  <form>
+  <form action="information.html">
     <!-- Input for name -->
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br><br>
@@ -45,20 +45,10 @@
     <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br><br>
 
     <!-- Submit button to send form -->
-    <input type="submit" value="Sign Petition">
-  </form>
+
 
   <!-- Volunteer form section -->
-  <h2>Volunteer Sign Up</h2>
-  <form>
-    <!-- Input for volunteer's name -->
-    <label for="volName">Name:</label><br>
-    <input type="text" id="volName" name="volName"><br><br>
-
-    <!-- Input for volunteer's email -->
-    <label for="volEmail">Email:</label><br>
-    <input type="email" id="volEmail" name="volEmail"><br><br>
-
+  
     <!-- Dropdown for volunteer availability -->
     <label for="availability">Availability to speaks to students:</label><br>
     <select id="availability" name="availability">
