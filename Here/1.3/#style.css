@@ -1,0 +1,29 @@
+body {
+    background: black;
+
+    color: bisque;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+#blueiv{
+    background: cyan;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    bottom: auto;
+    right: auto;
+}
+
+#reddiv{
+    background: red;
+}
